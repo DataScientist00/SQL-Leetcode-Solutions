@@ -1,0 +1,7 @@
+#problem link-->> https://leetcode.com/problems/game-play-analysis-i/description/
+
+# Write your MySQL query statement below
+
+SELECT player_id , min(event_date) as first_login
+FROM Activity
+GROUP BY player_id
